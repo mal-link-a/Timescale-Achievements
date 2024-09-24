@@ -1,0 +1,23 @@
+@keyframes hideText {
+  from {
+    color: #42567a;
+  }
+  20% {
+    color: rgba(0, 0, 0, 0);
+  }
+  to {
+    color: rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes showText {
+  from {
+    color: rgba(0, 0, 0, 0);
+  }
+  80% {
+    color: rgba(0, 0, 0, 0);
+  }
+  to {
+    color: #42567a;
+  }
+}
