@@ -3,9 +3,8 @@ import { useEffect, useRef, useState } from "react";
 import { TimeAchievementPeriod } from "../../model/types";
 import { wait } from "../../../../lib/wait";
 
-import { ReactComponent as LeftArrow } from "../../../../shared/leftArrow.svg";
+import  LeftArrow from "../../../../shared/leftArrow.svg";
 import { CircleButton } from "./CircleButton/CircleButton";
-import { useMediaQuery } from "react-responsive";
 
 interface Props {
   timeLines: TimeAchievementPeriod[];

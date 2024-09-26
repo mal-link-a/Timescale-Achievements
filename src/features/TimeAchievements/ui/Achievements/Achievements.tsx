@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { CustomSwiper } from "../../../../components/CustomSwiper/CustomSwiper";
+import { CustomSwiper } from "../../../../components/CustomSwiper/CustomSwiper.jsx";
 import { Achievement } from "../../model/types";
 import { AchievementItem } from "./AchievementItem/AchievementItem";
 import { useEffect, useRef, useState } from "react";
