@@ -1,6 +1,6 @@
-import { TimeLineItem } from "./types";
+import { TimeAchievement } from "./types";
 
-export const data: TimeLineItem[] = [
+export const data: TimeAchievement[] = [
   {
     startYear: 1984,
     endYear: 1999,
@@ -9,7 +9,7 @@ export const data: TimeLineItem[] = [
       {
         year: 1984,
         description:
-          "Единственная часть тела, которая не имеет кровоснабжения, - роговица глаза. Кислород она получает непосредственно из воздуха.",
+          "Единственная часть тела, которая не имеет кровоснабжения, - роговица глаза.",
       },
       {
         year: 1985,
@@ -31,12 +31,12 @@ export const data: TimeLineItem[] = [
     ],
   },
   {
-    startYear: 1999,
+    startYear: 2000,
     endYear: 2002,
     name: "Музыка",
     achievements: [
       {
-        year: 1999,
+        year: 2000,
         description:
           "Законодательство США допускало отправку детей по почте до 1913 года.",
       },

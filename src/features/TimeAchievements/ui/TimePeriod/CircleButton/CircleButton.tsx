@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import "./TimeLineItem.css";
+import "./animations.css";
 
 interface Props {
   counter: number;
@@ -8,7 +8,7 @@ interface Props {
   onClick: () => void;
 }
 
-export const TimeLineItem = ({ text, counter, isActive, onClick }: Props) => {
+export const CircleButton = ({ text, counter, isActive, onClick }: Props) => {
   return (
     <TimeLineButton $isActive={isActive} onClick={onClick}>
       <p>{counter}</p>
@@ -36,7 +36,6 @@ const TimeLineButton = styled.button<{$isActive: boolean}>`
   border: ${props => props.$isActive ? "2px solid #42567a": "none"};
   box-sizing: content-box;
   color: ${props => props.$isActive ? "#42567a": "rgba(0, 0, 0, 0)"};
-  opacity: .2s;
   transition: 1s;
   &:hover {
     color: #42567a;
@@ -45,7 +44,10 @@ const TimeLineButton = styled.button<{$isActive: boolean}>`
     border: 2px solid #42567a;
   }
 `;
+
 const TimeLineDescriprion = styled.p<{$isActive: boolean}>` 
+  font-weight: 700; 
+  font-size: 20px;
   color: ${props => props.$isActive ? "#42567a": "rgba(0, 0, 0, 0)"};
   position: absolute;
   left: 50px;

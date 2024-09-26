@@ -3,9 +3,10 @@ export interface Achievement {
     description: string;
 }
 
-export interface TimeLineItem {
+export interface TimeAchievement{
     startYear: number;
     endYear: number;
     name: string;
     achievements: Achievement[];
 }
+export type TimeAchievementPeriod = Omit<TimeAchievement, "achievements">

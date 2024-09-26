@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #f4f5f9;
+  font-family: "PT Sans", sans-serif;
 }
 
 .App-logo {
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #f4f5f9;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +38,6 @@
     transform: rotate(360deg);
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+

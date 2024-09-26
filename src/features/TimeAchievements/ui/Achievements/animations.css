@@ -1,0 +1,36 @@
+@keyframes updateText {
+  from {
+    opacity: 1;
+    color: red;
+    background=color: green;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    color: green;
+    background=color: red;
+  }
+}
+@keyframes updateText2 {
+  from {
+    opacity: 1;
+    color: red;
+    background=color: green;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    color: green;
+    background=color: red;
+  }
+}

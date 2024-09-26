@@ -1,12 +1,12 @@
 
 import styled from 'styled-components';
 import './App.css';
-import { TimeLineEvents } from './features/TimelineEvents/ui/TimeLineEvents';
+import { TimeAchievements } from './features/TimeAchievements/ui/TimeAchievements';
 
 function App() {
   return (
     <Main className="App">
-      <TimeLineEvents/>
+      <TimeAchievements/>
     </Main>
   );
 }
