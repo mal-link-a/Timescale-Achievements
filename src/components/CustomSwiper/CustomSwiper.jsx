@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import { register } from "swiper/element/bundle";
 register();
 
+
 //Такой слайдер из коробки не поддерживает TypeScript
 //Пропсы:
 //data - массив итемов для отображения в свайпере
@@ -15,27 +16,7 @@ export const CustomSwiper = ({ data, keys, slidesPerView }) => {
       navigation: true,
       pagination: true,
       injectStyles: [
-        `
-          .swiper-button-next,
-          .swiper-button-prev {
-            width: 50px;
-            height: 50px;
-            background-color: white;
-            border: none;
-            border-radius: 50%;
-            box-shadow: 0px 0px 10px #3877EE1A;
-            box-sizing: border-box;
-            padding: 14px;
-            @media (max-width: 1024px) { 
-            display: none;
-            };                       
-          } 
-            .swiper-button-next {
-            content: url("https://svgshare.com/i/1Akh.svg");
-            } 
-            .swiper-button-prev {
-            content: url("https://svgshare.com/i/1AjY.svg");            
-            } 
+        `          
           .swiper-button-disabled {
            opacity: 0 !important;
           }
@@ -43,6 +24,7 @@ export const CustomSwiper = ({ data, keys, slidesPerView }) => {
             width: 6px;
             height: 6px;
             background-color: #42567A;
+            color: blue;
             bottom: -10px;
 
             @media (min-width: 1024px) { 
